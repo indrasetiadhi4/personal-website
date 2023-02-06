@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  background-color: blueviolet;
+  justify-content: space-around;
+}
+
+nav > ul {
+  display: flex;
+  background-color: greenyellow;
+  justify-content: space-around;
+  width: 30%;
+}
+
+header {
+  background-color: aquamarine;
+  justify-content: center; /*not used*/
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  color: azure;
+}
+
+.name {
+  margin: 0;
+}
+
+.since {
+  display: flex;
+  justify-content: center;
+}
+
+.since > p {
+  background-color: red;
+  margin: 0;
+}
